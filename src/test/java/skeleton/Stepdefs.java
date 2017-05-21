@@ -12,11 +12,6 @@ public class Stepdefs {
 		System.out.println("I have cukes in my belly - " + cukes);
 	}
 	
-	@When("^I wait 1 hour$")
-	public void waited(){
-		System.out.println("Waited one Hour");
-	}
-	
 	@Then("^my belly should growl$")
 	public void growmore() {
 		System.out.println("Grow more");
