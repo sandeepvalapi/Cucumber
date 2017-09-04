@@ -1,4 +1,4 @@
-package skeleton;
+package com.bundles.automation.steps;
 
 import cucumber.api.java.en.When;
 
