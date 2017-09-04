@@ -2,11 +2,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>cucumber</groupId>
-	<artifactId>cucumber-java-skeleton</artifactId>
-	<version>0.0.1</version>
+	<groupId>com.bundles.automation</groupId>
+	<artifactId>CucBundles</artifactId>
+	<version>1.0-Snapshot</version>
 	<packaging>jar</packaging>
-	<name>Cucumber-Java Skeleton</name>
+	<name>Cucumber Bundles</name>
 
 	<properties>
 		<java.version>1.7</java.version>
@@ -37,21 +37,21 @@
 			<scope>test</scope>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+		<!-- Apachi poi -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
 			<version>3.16</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+		<!-- selenium-java -->
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
 			<version>3.4.0</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+		<!-- Test NG -->
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
