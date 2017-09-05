@@ -17,3 +17,9 @@ Scenario Outline: Login Functionality
 		| Tom   | password1 |
 		| Harry | password2 |
 		| Jerry | password3 |
+		
+@BareMinimum 
+Scenario: Gmail Check 
+	Given I am on gmail page 
+	When I enter my username and password and click on signin button 
+	Then I should be redirected to my dashboard page 

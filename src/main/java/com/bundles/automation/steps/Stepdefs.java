@@ -1,9 +1,10 @@
 package com.bundles.automation.steps;
 
+import com.bundles.business.Belly;
+
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
-import skeleton.Belly;
 
 public class Stepdefs {
 	@Given("^I have (\\d+) cukes in my belly$")

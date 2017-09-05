@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
  */
 @RunWith(Cucumber.class)
 @CucumberOptions(plugin = { "pretty", "html:target/cucumber", "json:target/cucumber.json" }, tags = {
-		"@Bundle, @BareMinimum" }, monochrome = true, glue = "com.bundles.automation.steps", features = {
-				"src/test/resources/skeleton" })
-public class RunCukesTest {
+		"@BareMinimum, @Bundle" }, monochrome = true, glue = "com.bundles.automation.steps", features = {
+				"src/test/resources/features" })
+public class CucumberTest {
 }
